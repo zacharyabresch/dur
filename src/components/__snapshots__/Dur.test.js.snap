@@ -1,0 +1,539 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dur renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dur />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Dur
+        </h1>,
+        <form>
+          <FormGroup
+            bsClass="form-group"
+          >
+            <ControlLabel
+              bsClass="control-label"
+              srOnly={false}
+            >
+              Start date: 
+            </ControlLabel>
+            <FormControl
+              bsClass="form-control"
+              className="start-input"
+              componentClass="input"
+              placeholder="Start date & time"
+              type="text"
+            />
+          </FormGroup>
+          <FormGroup
+            bsClass="form-group"
+          >
+            <ControlLabel
+              bsClass="control-label"
+              srOnly={false}
+            >
+              End date: 
+            </ControlLabel>
+            <FormControl
+              bsClass="form-control"
+              className="end-input"
+              componentClass="input"
+              placeholder="End date & time"
+              type="text"
+            />
+          </FormGroup>
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsStyle="default"
+            className="calculate-btn"
+            disabled={false}
+          >
+            Calculate duration
+          </Button>
+        </form>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Dur",
+        },
+        "ref": null,
+        "rendered": "Dur",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Start date: 
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="start-input"
+                componentClass="input"
+                placeholder="Start date & time"
+                type="text"
+              />
+            </FormGroup>,
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                End date: 
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="end-input"
+                componentClass="input"
+                placeholder="End date & time"
+                type="text"
+              />
+            </FormGroup>,
+            <Button
+              active={false}
+              block={false}
+              bsClass="btn"
+              bsStyle="default"
+              className="calculate-btn"
+              disabled={false}
+            >
+              Calculate duration
+            </Button>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-group",
+              "children": Array [
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Start date: 
+                </ControlLabel>,
+                <FormControl
+                  bsClass="form-control"
+                  className="start-input"
+                  componentClass="input"
+                  placeholder="Start date & time"
+                  type="text"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "control-label",
+                  "children": "Start date: ",
+                  "srOnly": false,
+                },
+                "ref": null,
+                "rendered": "Start date: ",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "form-control",
+                  "className": "start-input",
+                  "componentClass": "input",
+                  "placeholder": "Start date & time",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-group",
+              "children": Array [
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  End date: 
+                </ControlLabel>,
+                <FormControl
+                  bsClass="form-control"
+                  className="end-input"
+                  componentClass="input"
+                  placeholder="End date & time"
+                  type="text"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "control-label",
+                  "children": "End date: ",
+                  "srOnly": false,
+                },
+                "ref": null,
+                "rendered": "End date: ",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "form-control",
+                  "className": "end-input",
+                  "componentClass": "input",
+                  "placeholder": "End date & time",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "block": false,
+              "bsClass": "btn",
+              "bsStyle": "default",
+              "children": "Calculate duration",
+              "className": "calculate-btn",
+              "disabled": false,
+            },
+            "ref": null,
+            "rendered": "Calculate duration",
+            "type": [Function],
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Dur
+          </h1>,
+          <form>
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Start date: 
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="start-input"
+                componentClass="input"
+                placeholder="Start date & time"
+                type="text"
+              />
+            </FormGroup>
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                End date: 
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="end-input"
+                componentClass="input"
+                placeholder="End date & time"
+                type="text"
+              />
+            </FormGroup>
+            <Button
+              active={false}
+              block={false}
+              bsClass="btn"
+              bsStyle="default"
+              className="calculate-btn"
+              disabled={false}
+            >
+              Calculate duration
+            </Button>
+          </form>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Dur",
+          },
+          "ref": null,
+          "rendered": "Dur",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Start date: 
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  className="start-input"
+                  componentClass="input"
+                  placeholder="Start date & time"
+                  type="text"
+                />
+              </FormGroup>,
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  End date: 
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  className="end-input"
+                  componentClass="input"
+                  placeholder="End date & time"
+                  type="text"
+                />
+              </FormGroup>,
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="default"
+                className="calculate-btn"
+                disabled={false}
+              >
+                Calculate duration
+              </Button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-group",
+                "children": Array [
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Start date: 
+                  </ControlLabel>,
+                  <FormControl
+                    bsClass="form-control"
+                    className="start-input"
+                    componentClass="input"
+                    placeholder="Start date & time"
+                    type="text"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "control-label",
+                    "children": "Start date: ",
+                    "srOnly": false,
+                  },
+                  "ref": null,
+                  "rendered": "Start date: ",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "form-control",
+                    "className": "start-input",
+                    "componentClass": "input",
+                    "placeholder": "Start date & time",
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-group",
+                "children": Array [
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    End date: 
+                  </ControlLabel>,
+                  <FormControl
+                    bsClass="form-control"
+                    className="end-input"
+                    componentClass="input"
+                    placeholder="End date & time"
+                    type="text"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "control-label",
+                    "children": "End date: ",
+                    "srOnly": false,
+                  },
+                  "ref": null,
+                  "rendered": "End date: ",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "form-control",
+                    "className": "end-input",
+                    "componentClass": "input",
+                    "placeholder": "End date & time",
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "block": false,
+                "bsClass": "btn",
+                "bsStyle": "default",
+                "children": "Calculate duration",
+                "className": "calculate-btn",
+                "disabled": false,
+              },
+              "ref": null,
+              "rendered": "Calculate duration",
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
