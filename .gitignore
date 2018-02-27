@@ -60,3 +60,5 @@ typings/
 # Everything else
 build
 
+# jest
+__*__
